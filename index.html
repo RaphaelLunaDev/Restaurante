@@ -37,12 +37,12 @@
                             Eventos</a>
                     </li>
                     <li class="nav-item fw-bold">   <!--FW-bold =   font-weight/ negrito-->
-                        <a href="#" class="nav-link">
+                        <a href="#cardapio" class="nav-link">
                             <i class="bi bi-card-text me-1"></i> <!--ME = margin-end-->
                             Nosso cardápio</a>
                     </li>
                     <li class="nav-item fw-bold">   <!--FW-bold =   font-weight/ negrito-->
-                        <a href="#" class="nav-link">
+                        <a href="#fale-conosco" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i> <!--ME = margin-end-->
                             Fale conosco</a>
                     </li>
@@ -50,7 +50,7 @@
             </nav>
         </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true"> <!--"data-bs-smooth-scroll="true" faz o header não cobrir o titulo da seção ao clicar para ir pra ela>-->
                             <!--carousel-->
         <section id="sobre-o-restaurante">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
@@ -89,7 +89,7 @@
                     <div class="col-md-5">
                         <img src="./libs/images/restaurante.jpg" class="d-block w-100 rounded" alt="foto do restaurante"> <!--rounded deixa a borda arredondada-->
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 mt-3 mt-md-0"> <!--mt-md-0 (margin top 0 para telas medias ou largas)-->
                     <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. At, enim. Animi aliquid optio fuga modi cum vel facere quidem eaque consequuntur earum repudiandae maiores autem architecto perferendis, quos nisi provident!
@@ -107,7 +107,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </section>
     <section id="eventos" class="pt-5 pb-5">
         <div class="container">
@@ -139,6 +138,258 @@
             </div>    
         </div>
     </section>
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Nosso <span class="text-colored">cardápio</span>
+                </h2>
+            </div>
+                    <!--Barra lateral-->
+                    <!--Nome das abas-->
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio"> <!-- O 'nav-pills' faz os itens ficarem um ao lado do outro, e o 'flex-columnn'faz os itens ficarem um abaixo do outro-->
+
+                                            <!--efeito de troca de abas:-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólitras</button> <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-acolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólitras</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <!--conteudo das abas-->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="bebidas-sem-alcool">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/suco.jpg" alt="Suco de laranja" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Suco</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebidas-acolicas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/cerveja.jpg" alt="cerveja" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/bebidas/vinho.jpg" alt="Vinho" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Vinho</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="entradas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="pratos-principais">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/pratos/pizza.jpg" alt="pizza" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/pratos/salmao.jpg" alt="salmão" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Salmão</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="sobremesas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/sobremesas/bolo.jpg" alt="Bolo" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/sobremesas/cupcake.jpg" alt="cupcake" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">cupcake</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/sobremesas/bolo.jpg" alt="Bolo" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./libs/images/cardapio/sobremesas/bolo.jpg" alt="Bolo" class="d-block w-100">
+                                    <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center pb-5">
+                    Fale <span class="text-colored">conosco</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" name="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" name="email" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored" >Seu telefone (Opcional)</label>
+                            <input type="tel" id="telefone" class="form-control" name="telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem " name="mensagem" ></textarea >
+                        </div>
+                        <button class="btn fw-bold" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">    <!--fs-4 = font size 4-->
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais</h3> 
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored ms-2 me-2"></i> <!--ms = margin start/margem na esquerda// me= margin end/margem na direita-->
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored"> <!--fs-4 = font size 4-->
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço</h3>
+                        <p>
+                            Rua 152 módulo 30 casa 82B brasilia-DF
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>  <!-- É necessario colocar o "https:" para funcionar corretamente" -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> <!--O jQuery sempre tem que vim primeirp-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./libs/js/jquery.mask.min.js"></script> <!--Chamando a mask-->
+<script src="./libs/js/jquery.validate.min.js"></script>  <!--Chamando o validate-->
+<script src="libs/js/messages_pt_BR.min.js"></script> <!--Deixa em portugues-->
+<script src="./main.js"></script>
 </body>
 </html>
