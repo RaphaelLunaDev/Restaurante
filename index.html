@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="style.css">
-    <title>Restaurante</title>
+    <title>JoJo</title>
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho"> <!--P = padding--> <!--Stick-top faz o header seguir a pagina durante a rolagem-->
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Nome do restaurante</h1>
+            <h1 class="navbar-brand m-0">JoJo's Bizarre Adventures</h1>
             <!--VISAO DE CELL-->
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
@@ -27,19 +27,19 @@
                     <!--(Propriedade)-(breakpoint)-(Valor)-->
 
                     <li class="nav-item fw-bold">   <!--FW-bold =   font-weight/ negrito--> 
-                        <a href="#sobre-o-restaurante" class="nav-link">
+                        <a href="#sobre-o-site" class="nav-link">
                             <i class="bi bi-house-door me-1"></i> <!--ME = margin-end-->
-                            Sobre o restaurante</a>
+                            Sobre o site</a>
                     </li>
                     <li class="nav-item fw-bold">   <!--FW-bold =   font-weight/ negrito--> 
-                        <a href="#eventos" class="nav-link">
-                            <i class="bi bi-calendar-check me-1"></i> <!--ME = margin-end-->
-                            Eventos</a>
+                        <a href="#personagens" class="nav-link">
+                            <i class="bi bi-people-fill"></i><!--ME = margin-end-->
+                            Personagens</a>
                     </li>
                     <li class="nav-item fw-bold">   <!--FW-bold =   font-weight/ negrito-->
-                        <a href="#cardapio" class="nav-link">
+                        <a href="#nossos-produtos" class="nav-link">
                             <i class="bi bi-card-text me-1"></i> <!--ME = margin-end-->
-                            Nosso cardápio</a>
+                            Nossos produtos</a>
                     </li>
                     <li class="nav-item fw-bold">   <!--FW-bold =   font-weight/ negrito-->
                         <a href="#fale-conosco" class="nav-link">
@@ -52,17 +52,17 @@
     </header>
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true"> <!--"data-bs-smooth-scroll="true" faz o header não cobrir o titulo da seção ao clicar para ir pra ela>-->
                             <!--carousel-->
-        <section id="sobre-o-restaurante">
+        <section id="sobre-o-site">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000"> 
-                    <img src="./libs/images/slides/slide1.png" alt="foto do ambiente" class="d-block w-100"> <!--faz a imagem ocupar o espaço -->
+                <div class="carousel-item active" data-bs-interval="1500"> 
+                    <img src="https://images8.alphacoders.com/755/thumb-1920-755323.jpg" alt="imagem jojo" class="d-block w-100"> <!--faz a imagem ocupar o espaço -->
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="./libs/images/slides/slide2.png" alt="taças de vinho" class="d-block w-100"> <!--faz a imagem ocupar o espaço -->
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://images8.alphacoders.com/966/966117.jpg" alt="imagem jojo" class="d-block w-100"> <!--faz a imagem ocupar o espaço -->
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="./libs/images/slides/slide3.png" alt="mesa com comidas" class="d-block w-100"> <!--faz a imagem ocupar o espaço -->
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://images7.alphacoders.com/138/thumb-1920-1385093.png" alt="imagem jojo" class="d-block w-100"> <!--faz a imagem ocupar o espaço -->
                 </div>
             </div>
             
@@ -87,234 +87,176 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="./libs/images/restaurante.jpg" class="d-block w-100 rounded" alt="foto do restaurante"> <!--rounded deixa a borda arredondada-->
+                        <img src="https://wallpapers.com/images/hd/jojo-bizarre-adventure-hero-portraits-bnoaep4pgob44jaa.jpg" class="d-block w-100 rounded" alt="imagem jojo"> <!--rounded deixa a borda arredondada-->
                     </div>
                     <div class="col-md-7 mt-3 mt-md-0"> <!--mt-md-0 (margin top 0 para telas medias ou largas)-->
-                    <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                    <h3 class="section-title">Sobre <span class="text-colored">o site</span></h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At, enim. Animi aliquid optio fuga modi cum vel facere quidem eaque consequuntur earum repudiandae maiores autem architecto perferendis, quos nisi provident!
-                    </p>
-                    <h3 class="section-title text-colored">Sobre <span class="text-colored">o espaço</span></h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cum tenetur rem suscipit architecto optio molestias velit, eaque voluptatum eum quae sint, at corporis blanditiis maiores. Dicta rem illum quae.
+                        Nosso site é um ambiente dedicado principalmente para fans da série "JoJo's Bizarre Adventure" e possui diversos itens como :
                     </p>
                     <ul>
-                        <li>item 1</li>
-                        <li>item 2</li>
-                        <li>item 3</li>
+                        <li>Informações dos personagens</li>
+                        <li>Mangás</li>
+                        <li>Action figures</li>
+                        <li>Blusas personalizadas</li>
+                        <li>Canecas personalizadas</li>
                     </ul>
+                    <h2 class="section-title">Sobre <span class="text-colored">o anime</span></h2>
+                    <p>
+                        JoJo's Bizarre Adventure é uma história sobre a família Joestar, que descobre que tem um destino de derrotar inimigos sobrenaturais. A série é baseada no mangá de Hirohiko Araki. 
+                    </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="eventos" class="pt-5 pb-5">
+    <section id="personagens" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2> <!--text-center(sentraliza o texto)-->
+                <h2 class="section-title text-center">Alguns<span class="text-colored"> personagens</span></h2> <!--text-center(sentraliza o texto)-->
             </div>
             <div class="row mt-4">
                 <div class="col-md-4">
-                    <img src="./libs/images/eventos/aniversario.jpg" alt="bolinhos de aniversario" class="d-block w-100 rounded mb-2">
+                    <img src="https://i.pinimg.com/564x/3a/ef/5f/3aef5fd261969471188a142f214f88d5.jpg" alt="imagem jotaro" class="d-block w-100 rounded mb-2">
                     <h3 class="section-title text-colored fs-4"> <!--fs/ Font-size-->
-                        <i class="bi bi-calendar-heart-fill"></i>
-                        Aniversarios</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, autem! Necessitatibus minima esse omnis dolorem voluptates optio expedita illo veritatis, quas sint, nihil quis. Cupiditate voluptas quasi aliquam quos veritatis.</p>
+                        Jotaro Kujo</h3>
+                    <p>Jotaro é um delinquente que vive uma vida normal até que o velho inimigo da Família Joestar, DIO, retorna. Jotaro viaja para o Egito para salvar sua mãe e parar o Vampiro de uma vez por todas.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="./libs/images/eventos/casamento.jpg" alt="Mesa de casamento" class="d-block w-100 rounded mb-2">
+                    <img src="https://i.pinimg.com/564x/d5/77/bd/d577bd666d9ee440510ee1146aeec341.jpg" alt="imagem dio" class="d-block w-100 rounded mb-2">
                     <h3 class="section-title text-colored fs-4"> <!--fs/ Font-size-->
-                        <i class="bi bi-arrow-through-heart-fill"></i>
-                        Recepção para casamentos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, autem! Necessitatibus minima esse omnis dolorem voluptates optio expedita illo veritatis, quas sint, nihil quis. Cupiditate voluptas quasi aliquam quos veritatis.</p>
+                        Dio Brando</h3>
+                    <p>conhecido como DIO da Parte 3 em diante, é o principal antagonista no universo original de JoJo's Bizarre Adventure, apresentado principalmente como o principal antagonista em Phantom Blood e Stardust Crusaders, e um antagonista chave póstumo em Stone Ocean.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="./libs/images/eventos/confraternizacoes.jpg" alt="Pessoas fazendo um Drink" class="d-block w-100 rounded mb-2">
+                    <img src="https://i.pinimg.com/736x/7b/cf/5f/7bcf5f1999062bea58649d4eddd37117.jpg" alt="imagem kira" class="d-block w-100 rounded mb-2">
                     <h3 class="section-title text-colored fs-4"> <!--fs/ Font-size-->
-                        <i class="bi bi-people-fill"></i>
-                        Confraternizacoes</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, autem! Necessitatibus minima esse omnis dolorem voluptates optio expedita illo veritatis, quas sint, nihil quis. Cupiditate voluptas quasi aliquam quos veritatis.</p>
+                        Yoshikage Kira</h3>
+                    <p>Despercebido em Morioh por anos e imperturbável durante toda a sua vida, Yoshikage Kira é um serial killer anormal e parafílico cuja rotina é abalada quando o fantasma de sua primeira vítima, Reimi Sugimoto , implora ao Grupo Joestar para procurá-lo e ele atrai atenção indesejada ao matar Shigekiyo Yangu.</p>
                 </div>
             </div>    
         </div>
     </section>
-    <section id="cardapio" class="pt-5 pb-5">
+    <section id="nossos-produtos" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
                 <h2 class="section-title text-center mb-5">
-                    Nosso <span class="text-colored">cardápio</span>
+                    Nossos <span class="text-colored">produtos</span>
                 </h2>
             </div>
                     <!--Barra lateral-->
                     <!--Nome das abas-->
             <div class="row">
                 <aside class="col-md-2">
-                    <nav class="nav nav-pills flex-column nav-cardapio"> <!-- O 'nav-pills' faz os itens ficarem um ao lado do outro, e o 'flex-columnn'faz os itens ficarem um abaixo do outro-->
+                    <nav class="nav nav-pills flex-column nav-produtos"> <!-- O 'nav-pills' faz os itens ficarem um ao lado do outro, e o 'flex-columnn'faz os itens ficarem um abaixo do outro-->
 
                                             <!--efeito de troca de abas:-->
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólitras</button> <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-acolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólitras</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#mangas" class="fw-bold text-start nav-link text-colored active">Mangás</button> <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Action-figures" class="fw-bold text-start nav-link text-colored">Action figures</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#canecas" class="fw-bold text-start nav-link text-colored">Canecas personalizadas</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#blusas" class="fw-bold text-start nav-link text-colored">Blusas personalizadas</button>   <!--'text-start' faz as letras começarem da esquerda pra direita 'fw-bold' negrito-->
                     </nav>
                 </aside>
                 <div class="col-md-10">
                     <!--conteudo das abas-->
                     <div class="tab-content">
-                        <div class="tab-pane active" id="bebidas-sem-alcool">
+                        <div class="tab-pane active" id="mangas">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/91XRYa+4cHL._AC_UF1000,1000_QL80_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Phantom Blood</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/suco.jpg" alt="Suco de laranja" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Suco</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/91BmJuG99FL._AC_UF1000,1000_QL80_.jpg" alt="Suco de laranja" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Phantom Blood 2</h5>
+                                </div>
+                                <div class="col-md-3 pb-5">
+                                    <img src="https://m.media-amazon.com/images/I/91LWDNEuzgL._AC_UF1000,1000_QL80_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Phantom Blood 3</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/91Jvdn0I3dL.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Battle Tendency</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/91T4t+dSbuL._UF894,1000_QL80_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Battle Tendency 2</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/81yTShZH-FL._AC_UF1000,1000_QL80_.jpg " alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Stardust Crusaders</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/coca-cola.jpg" alt="coca-cola" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/81n7ylLGZbL._SY425_.jpg " alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Stardust Crusaders 2</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://m.media-amazon.com/images/I/81PlFBq5t0L._SY425_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Stardust Crusaders 3</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="bebidas-acolicas">
-                            <div class="row">
+                        <div class="tab-pane" id="Action-figures">
+                            <div class="row action-figures ">
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/cerveja.jpg" alt="cerveja" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/51IOs1u2SdL.__AC_SX300_SY300_QL70_ML2_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Jotaro Kujo</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/bebidas/vinho.jpg" alt="Vinho" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Vinho</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="entradas">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/51VwMvVRZHL._AC_SY879_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Dio Brando</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/51LF95eK3hL.__AC_SX300_SY300_QL70_ML2_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Narancia Ghirga</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/entradas/entrada.jpg" alt="Entradas" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Entradas</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://m.media-amazon.com/images/I/51Yy9ZmljLL._AC_SY879_.jpg" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Josuke Higashikata</h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="pratos-principais">
-                            <div class="row">
+                        <div class="tab-pane" id="canecas">
+                            <div class="row canecas">
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/pratos/pizza.jpg" alt="pizza" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Pizza</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_998163-MLB79628134903_092024-O.webp" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Caneca Dio Brando</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/pratos/salmao.jpg" alt="salmão" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Salmão</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_602701-MLB48222107972_112021-O.webp" alt="Suco de laranja" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Caneca Jotaro Kujo</h5>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="sobremesas">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/sobremesas/bolo.jpg" alt="Bolo" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Bolo</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                <div class="col-md-3 pb-5">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_937092-MLB79383534102_092024-O.webp" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Caneca Okuyasu Nijimura</h5>
                                 </div>
                                 <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/sobremesas/cupcake.jpg" alt="cupcake" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">cupcake</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/sobremesas/bolo.jpg" alt="Bolo" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Bolo</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="./libs/images/cardapio/sobremesas/bolo.jpg" alt="Bolo" class="d-block w-100">
-                                    <h5 class="text-colored fw-bold mt-2">Bolo</h5>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae consequuntur
-                                    </p>
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_828548-MLB79399558328_092024-O.webp" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Caneca Dio Brando 2</h5>
                                 </div>
                             </div>
                         </div>
+                        <div class="tab-pane" id="blusas">
+                            <div class="row blusas">
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_882654-MLB49003265668_022022-O.webp" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Moletom Jotaro Kujo</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_989595-MLB49474412379_032022-O.webp" alt="Suco de laranja" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa Polnaref</h5>
+                                </div>
+                                <div class="col-md-3 pb-5">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_791382-CBT76542528018_052024-O.webp" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Moletom The Word</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_842052-MLB50430817324_062022-O.webp" alt="coca-cola" class="d-block w-100 rounded">
+                                    <h5 class="text-colored fw-bold mt-2">Moletom Giorno Giovanna</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -376,7 +318,7 @@
                             <i class="bi bi-cursor-fill"></i>
                             Endereço</h3>
                         <p>
-                            Rua 152 módulo 30 casa 82B brasilia-DF
+                            jojo-bizarre-adventure
                         </p>
                     </div>
                 </div>

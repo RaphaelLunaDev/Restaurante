@@ -1,18 +1,24 @@
 body {
     font-family: "Roboto", serif;
 }
+.navbar-brand{
+    font-family: "Rowdies", sans-serif;
+}
 .navbar{
-    background-color: #e15f41;
+    background-color: purple;
+}
+.carousel img{
+    max-height: 650px;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #e15f41;
+    color: purple;
 }
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-produtos .nav-link.active:hover {
     color: #fff;
 }
 .navbar-toggler {
@@ -22,23 +28,36 @@ body {
     font-family: "Pacifico", serif;
 }
 .text-colored{
-    color: #e15f41;
+    color: purple;
 }
-#sobre-o-restaurante {
-    background-color: #ffeae6;
+#sobre-o-site {
+    background-color: rgba(167, 14, 167, 0.4);
 }
-#eventos {
+#personagens {
     background-color: #ece3e1;
 }
-.nav-cardapio .nav-link.active,
+#personagens img{
+    height: 500px;
+}
+.action-figures img{
+    height: 300px;
+}
+.canecas img {
+    height: 150px;
+}
+.blusas img {
+    height: 230px;
+}
+.nav-produtos .nav-link.active,
 #fale-conosco button {
-    background-color:#e15f41;
+    background-color:purple;
     color: #fff;
 }
-.nav-cardapio .nav-link:hover{
-    color: #e15f41;
+.nav-produtos .nav-link:hover{
+    color: white;
+    background-color: rgba(82, 3, 82, 0.616);
 }
-#cardapio {
+#nossos-produtos {
     background-color: #f7dceb;
 }
 .social-links li{
@@ -47,4 +66,15 @@ body {
 }
 .social-links a{
     text-decoration: none;
+}
+@media screen and (max-width: 640px) {
+    .container{
+        max-width: 90%;
+    }
+    .action-figures img{
+        height: 430px;
+    }
+    .row h5 {
+        padding-bottom: 30px;
+    }
 }
